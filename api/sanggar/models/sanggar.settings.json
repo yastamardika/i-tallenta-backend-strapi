@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sanggars",
+  "info": {
+    "name": "Sanggar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "foto_sanggar": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "nama_sanggar": {
+      "type": "string"
+    },
+    "deskripsi_sanggar": {
+      "type": "text"
+    },
+    "no_hp": {
+      "type": "string"
+    },
+    "alamat_sanggar": {
+      "type": "string"
+    },
+    "kategori_sanggars": {
+      "via": "sanggars",
+      "collection": "kategori-sanggar"
+    }
+  }
+}

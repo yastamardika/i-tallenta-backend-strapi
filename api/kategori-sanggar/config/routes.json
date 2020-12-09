@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kategori-sanggars",
+      "handler": "kategori-sanggar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kategori-sanggars/count",
+      "handler": "kategori-sanggar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kategori-sanggars/:id",
+      "handler": "kategori-sanggar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kategori-sanggars",
+      "handler": "kategori-sanggar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kategori-sanggars/:id",
+      "handler": "kategori-sanggar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kategori-sanggars/:id",
+      "handler": "kategori-sanggar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sanggars",
+      "handler": "sanggar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sanggars/count",
+      "handler": "sanggar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sanggars/:id",
+      "handler": "sanggar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sanggars",
+      "handler": "sanggar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sanggars/:id",
+      "handler": "sanggar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sanggars/:id",
+      "handler": "sanggar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

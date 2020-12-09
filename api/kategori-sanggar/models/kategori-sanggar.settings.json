@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kategori_sanggars",
+  "info": {
+    "name": "kategori_sanggar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "sanggars": {
+      "collection": "sanggar",
+      "via": "kategori_sanggars",
+      "dominant": true
+    }
+  }
+}
