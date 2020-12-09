@@ -1,3 +1,3 @@
-# Strapi application
+# I-Tallenta temporary API
 
-A quick description of your strapi application
+For Sistem Informasi dan Multimedia Project Task because my role is front-end developer
